@@ -233,7 +233,7 @@
           
           <div class="form-group">
             <input type="checkbox" id="terms" required>
-            <label for="terms">I have read and agree to the <a href="hostel-rules.jsp">hostel rules and policies</a> *</label>
+            <label for="terms">I have read and agree to the <a href="${pageContext.request.contextPath}/Pages/UserPages/hostel-rules.jsp">hostel rules and policies</a> *</label>
           </div>
           
           <div class="form-actions">
